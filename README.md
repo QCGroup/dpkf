@@ -1,7 +1,7 @@
 # DPKF
 This repository contains the code to regenerate figures and results from the following paper:
 >M.H. Yoosefian Nooshabadi and L. Lessard.
-"State Estimation for Linear Systems with Non-Gaussian Measurement Noise via Dynamic Programming", IEEE Conference on Decision and Control, 2025 ([arXiv](linkToArxiv)) 
+"State Estimation for Linear Systems with Non-Gaussian Measurement Noise via Dynamic Programming", IEEE Conference on Decision and Control, 2025 ([arXiv](https://arxiv.org/abs/2509.05482)) 
 
 **DPKF** stands for **Dynamic Programming Kalman Filter** and refers to an estimation method for linear discrete-time dynamical systems with Gaussian process noise and non-Gaussian measurement noise. The proposed method outperforms the standard Kalman filter and has comparable performance to state-of-the-art methods, while requiring significantly less computational power. It also doesn't rely on restrictive assumptions on the noise density function and only requires it to be differentiable.
 
@@ -39,14 +39,16 @@ For any questions or comments, please feel free to contact the authors:
 - Laurent Lessard: l.lessard@northeastern.edu
 
 ## Citation
-To cite this paper, please use the following
+To cite this paper, please use the following (will be updated once the paper is published in the CDC proceedings)
 ```
-@inproceedings{dpkf,
+@misc{dpkf,
     title={State Estimation for Linear Systems with Non-Gaussian Measurement Noise via Dynamic Programming}, 
-    author={Nooshabadi, Mohammad Hussein Yoosefian and Lessard, Laurent},
-    booktitle={2025 IEEE 64th Conference on Decision and Control (CDC)},
+    author={Mohammad Hussein Yoosefian Nooshabadi and Laurent Lessard},
     year={2025},
-    publisher={IEEE}
+    eprint={2509.05482},
+    archivePrefix={arXiv},
+    primaryClass={eess.SY},
+    url={https://arxiv.org/abs/2509.05482}, 
 }
 ```
 
